@@ -4,6 +4,8 @@
  * main - Entry point
  *
  * Return : Always 0 (success)
+ *
+ * Description - prints main
  */
 int main(void)
 {

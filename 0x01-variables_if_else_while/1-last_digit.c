@@ -14,7 +14,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	int a = n%10;
+	char a = n%10;
 
 	if (n > 5)
 	{

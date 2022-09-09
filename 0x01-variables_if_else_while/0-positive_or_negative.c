@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /*
- * Main  - Entry Point
+ * main  - Entry Point
  *
  * Retunr: Always 0 (Success)
  */

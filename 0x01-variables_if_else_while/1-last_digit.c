@@ -14,11 +14,11 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	if (a = n%10; a > 5)
+	if (n > 5)
 	{
 		printf("Last digit of %d is %u and is greater than 5", n, a);
 	}
-	else if (a < 6 || n != 0 )
+	else if (n < 6 || n != 0 )
 	{
 		printf("Last digit of %d is %u and is less than 6 and is not 0", n, a);
 	}

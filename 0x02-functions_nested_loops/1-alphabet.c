@@ -6,15 +6,14 @@
  * Retrun: Always 0 (success)
  *
  */
-int main(n)
+void print_alphabet(n)
 {
 	char alpha;
 
 	for (alpha = a; alpha <= z; alpha++)
 	{
-		print_alphabet(alpha);
+		putchar(alpha);
 	}
-
-	print_alphabet('\n');
+	putchar('\n');
 	return (0);
 }

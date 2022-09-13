@@ -6,11 +6,11 @@
  * Retrun: Always 0 (success)
  *
  */
-void print_alphabet(n)
+void print_alphabet(void)
 {
 	char alpha;
 
-	for (alpha = a; alpha <= z; alpha++)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
 		putchar(alpha);
 	}

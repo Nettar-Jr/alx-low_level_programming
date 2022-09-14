@@ -18,11 +18,12 @@ int print_sign(int n)
 	else if (n == 0)
 	{
 		printf("0, %u", n);
-		retunr (0);
+		return (0);
 	}
 	else
 	{
 		printf("-, %u", n);
 		retunr (-1);
 	}
+	return ();
 }

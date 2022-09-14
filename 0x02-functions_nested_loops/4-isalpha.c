@@ -7,9 +7,9 @@
  *
  * Return: 1 or 0
  */
-int _isalpha(int c)
+int _isalpha(int n)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	if ((n >= 'a' && n <= 'z') || (n >= 'A' && n <= 'Z'))
 	{
 		return (1);
 	}

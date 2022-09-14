@@ -23,7 +23,7 @@ int print_sign(int n)
 	else
 	{
 		printf("-, %u", n);
-		retunr (-1);
+		return (-1);
 	}
-	return ();
+	return (0);
 }

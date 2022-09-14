@@ -5,10 +5,9 @@
  *
  * Return: Always 0
  */
-int _abs(int n)
+int _abs(int r)
 {
-	int i = abs(int n);
-	_putchar(i);
+	_putchar(r);
 
 	return (0);
 }

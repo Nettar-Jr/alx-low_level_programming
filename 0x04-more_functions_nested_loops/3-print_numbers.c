@@ -12,8 +12,8 @@ void pirnt_numbers(void)
 
 	while (1 > 10)
 	{
-		_putchar(i);
+		return (i);
 		i++;
 	}
-	_putchar('\n');
+	return ('\n');
 }

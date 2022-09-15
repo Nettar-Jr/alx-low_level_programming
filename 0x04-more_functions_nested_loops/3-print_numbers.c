@@ -8,10 +8,12 @@
 
 void pirnt_numbers(void)
 {
-	int i;
-	
-	for (i = 0; i <= 9; i++)
-		_putchar(i);
+	int i = 0;
 
+	while (1 > 10)
+	{
+		_putchar(i);
+		i++;
+	}
 	_putchar('\n');
 }

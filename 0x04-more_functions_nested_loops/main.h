@@ -1,5 +1,7 @@
-#ifndef HEADER_FILE                                                                                                         
-#define HEADE_FILE 
+#ifndef MAIN_H
+#define MAIN_H
+
+char _putchar(char n);
 
 int _isupper(int c);
 
@@ -9,10 +11,6 @@ int mul(int a, int b);
 
 void print_numbers(void);
 
-int _putchar(char c);
-
-void print_most_numbers(void);
 
 
-
-#endif
+#endif /* MAIN_H */

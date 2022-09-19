@@ -2,16 +2,16 @@
 #include <string.h>
 
 /**
- * _strlen - returns the length of a string
- * @s : string to be counted
+ ** _strlen - returns the length of a string
+ ** @s : string to be counted
  *
- * Retrun: 0
+ ** Return: 0
  */
 
 int _strlen(char *s)
 {
 	int len;
-	
+
 	len = strlen(s);
 	return (len);
-}	
+}

@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * _atoi : converts strings to integers
- * @s string to be converted
+ * _atoi - converts strings to integers
+ * @s : string to be converted
  *
  * Return: 0
  */

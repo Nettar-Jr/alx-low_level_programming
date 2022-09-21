@@ -3,7 +3,7 @@
 
 /**
 * _strcmp - cpmpares two strings
-* 
+*
 * @s1: first string to compare
 * @s2: second string to compare
 *

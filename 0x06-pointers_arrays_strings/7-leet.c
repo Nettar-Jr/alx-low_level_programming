@@ -16,14 +16,11 @@ char *leet(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (; str[i] != '\0'; i++)
+		for (j = 0; j <= 9; j++)
 		{
-			for (j = 0; j <= 9; j++)
+			if (m[j] == str[i])
 			{
-				if (m[j] == str[i])
-				{
-					str[i] = n[j];
-				}
+				str[i] = n[j];
 			}
 		}
 	}

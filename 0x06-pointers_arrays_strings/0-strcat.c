@@ -4,7 +4,7 @@
 /**
 * _strcat - join two strings together
 *
-* @scr: string will be taken from here
+* @src: string will be taken from here
 * @dest: string will be put here
 *
 * Return: 0

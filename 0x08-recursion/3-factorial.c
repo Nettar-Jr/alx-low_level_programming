@@ -3,7 +3,7 @@
 /**
  * factorial - calculate the factorial of a number
  *
- * @n - number to culculate
+ * @n: number to culculate
  *
  * Return: n
  */

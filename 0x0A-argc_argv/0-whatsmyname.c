@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include "main.h"
+
+void print_char(char *s);
 
 /**
  * main - print firts argument
@@ -11,7 +14,27 @@
 
 int main(int argc  __attribute__((unused)), char *argv[])
 {
-	printf("This program was called with %s\n", argv[0]);
+	print_char(argv[0]);
+	putchar('\n');
 
 	return (0);
+}
+
+/**
+ * print_char -  print chars of string
+ *
+ * @s: string to be printed
+ *
+ * Return: 0
+ */
+
+void print_char(char *s)
+{
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		putchar(s[i]);
+		i++;
+	}
 }

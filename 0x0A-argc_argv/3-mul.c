@@ -6,7 +6,7 @@
  * @argc: number of argument
  * @argv: array of pointers to strin arguments
  *
- * Retrun: o
+ * Return: o
  */
 
 int main(int argc, char *argv[])
@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	if (argc > 3 || argc < 2)
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
 	else
 	{

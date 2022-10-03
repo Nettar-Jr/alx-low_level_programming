@@ -20,7 +20,7 @@ bool ispositive(char *str)
 	if (str[0] == '-')
 	{
 		printf("Numbers must be positive\n");
-		return false;
+		return (false);
 	}
 
 	for (i = 0; i < length; i++)
@@ -28,10 +28,10 @@ bool ispositive(char *str)
 		if (!isdigit(str[i]))
 		{
 			printf("Error\n");
-			return false;
+			return (false);
 		}
 	}
-	return true;
+	return (true);
 }
 /**
  * main - Prints the sum of positive numbers

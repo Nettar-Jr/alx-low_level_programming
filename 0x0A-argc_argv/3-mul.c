@@ -7,7 +7,7 @@
  * @argc: number of argument
  * @argv: array of pointers to strin arguments
  *
- * Return: o
+ * Return: 0 || 1
  */
 
 int main(int argc, char *argv[])
@@ -20,9 +20,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-
 		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	}
-
 	return (0);
 }

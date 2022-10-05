@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 
-/*
- * create_array - and array and initiallize it with a special char
+/**
+ * create_array - an array and initiallize it with a special char
  *
  * @size: size of array
  * @c: char
@@ -27,5 +27,5 @@ char *create_array(unsigned int size, char c)
 		ar[i] = c;
 	}
 
-	return (ar);	
+	return (ar);
 }

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * argstorstr - a function that concatinate all arg
+ * argstostr - a function that concatinate all arg
  *
  * @ac: number of arg
  * @av: array or ac

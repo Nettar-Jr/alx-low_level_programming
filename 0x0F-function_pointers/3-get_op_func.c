@@ -3,17 +3,16 @@
 #include "3-calc.h"
 
 /**
- * get_op_func - pointer to function 
+ * get_op_func - pointer to function
  *
- * @s: operator 
+ * @s: operator
  *
  * Return: 0 || NULL
  */
 
 int (*get_op_func(char *s))(int, int)
 {
-	op_t ops[] =
-	{
+	op_t ops[] = {
 		{"+", op_add},
 		{"-", op_sub},
 		{"*", op_mul},
@@ -22,6 +21,7 @@ int (*get_op_func(char *s))(int, int)
 		{NULL, NULL}
 	};
 	int i;
+
 	i = 0;
 
 	while (i < 5)

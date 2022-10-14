@@ -19,9 +19,9 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	va_start(args, n);
 
-	for (i = 0; i < n; i++)
+	for (i = 0; i < (n - 1) && n != 0; i++)
 	{
-		if (i == n - 1)
+		if (i == (n - 1))
 		{
 			num = va_arg(args, int);
 			printf("%d", num);

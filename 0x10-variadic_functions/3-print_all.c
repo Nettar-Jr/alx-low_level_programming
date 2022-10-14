@@ -2,12 +2,22 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 
+/**
+ * print_all - prints all arguments passed
+ *
+ * @format: format of arguments
+ *
+ * Return: nothing
+ */
+
 void print_all(const char * const format, ...)
 {
 	unsigned int i;
 	va_list args;
 	char *s, *separator;
+
 	va_start(args, format);
+
 	separator = "";
 	i = 0;
 

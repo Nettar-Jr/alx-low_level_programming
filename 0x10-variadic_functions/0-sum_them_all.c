@@ -4,7 +4,7 @@
 /**
  * sum_them_all - sum up all intergers
  *
- * #n: number of arguments
+ * @n: number of arguments
  *
  * Return: sum
  */
@@ -17,9 +17,10 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_start(args, n);
 
-	for (i = 0; i < n; i ++)
+	for (i = 0; i < n; i++)
 	{
 		int num = va_arg(args, int);
+
 		sum = sum + num;
 	}
 	va_end(args);

@@ -24,7 +24,7 @@ unsigned int binary_to_uint(const char *b)
 	base_converter = 1;
 
 	if (!b)
-		return (1);
+		return (0);
 
 	for (; len >= 0; len--, base_converter *= 2)
 	{

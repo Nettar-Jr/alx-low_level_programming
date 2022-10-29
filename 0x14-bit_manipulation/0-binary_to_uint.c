@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * binary_to_uint - A function that convert binary to 
+ * binary_to_uint - A function that convert binary to
  * unsigned int.
  *
  * @b: pointer to a string of ZEROs and ONEs
@@ -22,7 +22,7 @@ unsigned int binary_to_uint(const char *b)
 	len = (strlen(b)) - 1;
 	n = 0;
 	base_converter = 1;
-	
+
 	if (!b)
 		return (1);
 

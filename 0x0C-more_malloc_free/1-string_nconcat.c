@@ -18,8 +18,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *s;
 	int len, i, j;
 	int m = n;
-	int len_s1 = strlen(s1);
-	int len_s2 = strlen(s2);
+	int len_s1 = strlen(s1); /*Lenght of string s1*/
+	int len_s2 = strlen(s2); /*Length of string s2*/
 
 	if (s2 == NULL)
 		s2 = "";

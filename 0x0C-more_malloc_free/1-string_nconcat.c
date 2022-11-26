@@ -10,7 +10,7 @@
  *
  * @n: size of byte to take from source
  *
- * Retrn: pointer to new string
+ * Return: pointer to new string
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)

@@ -1,7 +1,8 @@
+#include <stdlib.h>
 #include "lists.h"
 
 /**
- * add_nodeint - adds a node to the beginning of a singly 
+ * add_nodeint - adds a node to the beginning of a singly
  * linked list
  *
  * @head: pointer to first element
@@ -15,6 +16,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 {
 
 	listint_t *new_node;
+
 	new_node = malloc(sizeof(listint_t));
 
 	if (new_node != NULL)
